@@ -36,11 +36,12 @@ call plug#begin()
 	Plug 'junegunn/goyo.vim'
 	Plug 'mattn/emmet-vim'
 	Plug 'neoclide/coc.nvim', {'branch': 'release'}
-    Plug 'ryanoasis/vim-devicons' 
-    Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
-    Plug 'preservim/nerdtree' |
+    	Plug 'ryanoasis/vim-devicons' 
+    	Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+    	Plug 'preservim/nerdtree' |
                 \ Plug 'Xuyuanp/nerdtree-git-plugin'
-    Plug 'WolfgangMehner/c-support'
+  	"Plug 'WolfgangMehner/c-support'
+	Plug 'WolfgangMehner/vim-plugins'
 
 call plug#end()
 
